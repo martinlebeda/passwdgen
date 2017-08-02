@@ -19,41 +19,41 @@ $ perl passwdgen -h
 Some examples:
 ```
 $ perl passwdgen
-monadycl
-moserepy
-xisugixl
-crlrjonl
-srrebanl
-jazicoji
-zokrgowo
-jlmizlcu
-nupikynl
-viroxugo
-fezejesa
-vawoqlxy
-tllewevy
-glkiqipy
-sucrhldi
-dlbrduji
-pijikira
-xogatyru
-foxinlwl
-hypamabi
+sukarecu
+ziximlqi
+prjitaho
+hynitrte
+pocejaci
+cilurorr
+kyjulaql
+qyvrwyxe
+gikifutu
+humujlhl
+gytlveju
+muqaglva
+wlkljuzl
+qyconuzi
+jamogixe
+slhanexl
+zazudano
+nlmlqexl
+grvusitl
+covyqrra
 
 $ perl passwdgen -c 3 -l 12 -u -n
-bOqepE9I1UFe
-PemiQoCaPO9e
-dIXyneDinYHo
+FLQIzOmlrYpI
+nyJE2LSLnEkR
+ZoWicUWyXLKL
 
 $ perl passwdgen -c 3 -l 50 -u -n -s
-lYK_b@neFuC-G?ZLJLMlMofLMrW,g@L}G_V{N.5yP(D,q,M:ny
-8:2OR{7(f)K)J{p{v+6=H:S{V!R^GLT{jyLLS=w-W*K-v[JU9L
-D]j+PUzuD{jLR!m=D@k^v:8~F?T:9?F.g&Bi8RvEV%typAqlgl
+K$W]9*w?8iR[G$c#JLvi1}Pok!h/Z:m_2!n*9]l,S*N/Z$M^7^
+K^VYBublZr0&K)f?HL1,M&q_k@7r8lk.v+s_M/h,T*f@x-P]d*
+g*nI4Ol[G&gyP{3iprM%X}g[vRL*D^l:4L0RF-0*NeV-GOhYL(
 
 $ perl passwdgen -c 3 -f were
-niwereka
-werexebr
-werejogo
+wereqagi
+cywerecy
+wereqiny
 ```
 
 ## Install
