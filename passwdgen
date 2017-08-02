@@ -1,12 +1,7 @@
 #!/usr/bin/perl
 # 
-# File name: passwdgen.pl Date:      2002/12/30 13:02 Author:     
+# Date: 2002/12/30 13:02      
 #
-# Popis: Generátor absolutnì nezapamatovatelnıch, ale silnıch hesel. Slouí
-# pøedevším pro hesla, která si nemusím pamatovat nebo se pouívají
-# automaticky nebo je kopíruji z heslového trezoru pøez clipboard.
-#
-# Zmìny: 2002/12/30  - created
 
 use locale;
 use Getopt::Std;
@@ -34,10 +29,10 @@ else {$pocet = 20;} #vıchozí hodnota pro pocet hesel v nabídce
 if ($opt_f) {$vzor = $opt_f;}
 else {$vzor = '.*';} #vıchozí hodnota pro vzor v heslu
 
-@samohlasky = qw(a e i o u);
-if ($opt_u) { @samohlasky = (@samohlasky, qw(A E I O U y Y)); }
-@souhlasky = qw(b c d f g h j k l m n p q r s t v w x); 
-if ($opt_u) { @souhlasky = (@souhlasky, qw(B C D F G H J K L M N P Q R S T V W X z Z)); }
+@samohlasky = qw(a e i o u y r l);
+if ($opt_u) { @samohlasky = (@samohlasky, qw(A E I O U Y R L)); }
+@souhlasky = qw(b c d f g h j k l m n p q r s t v w x z); 
+if ($opt_u) { @souhlasky = (@souhlasky, qw(B C D F G H J K L M N P Q R S T V W X Z)); }
 
 if ($opt_s) { @samohlasky = (@samohlasky, qw(/ * - + = _ [ ] { } ( ) . , : ? ~ ! @ # $ % ^ & *));}
 if ($opt_n) { @souhlasky = (@souhlasky, qw(1 2 3 4 5 6 7 8 9 0));}
