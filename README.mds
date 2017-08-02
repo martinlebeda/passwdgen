@@ -1,5 +1,5 @@
 # passwdgen
-Human readable and pronounceable password generator writen in perl. 
+Human readable and pronounceable password generator writen in perl. Freely inspired by utility on old SCO OpenServer. 
 
 But it can generate stronger password, with special characers and arbitrary
 lenght. Program generate proposals and user can choose (and modify) by own taste.
@@ -22,4 +22,4 @@ Some examples:
 
 ## Install
 
-Copy script to your favourite path and set executable bit with `chmod +x passwdgen` or use perl explicitly (as you can see in examples).
+Copy script `passwdgen` to your favourite path and set executable bit with `chmod +x passwdgen` or use perl explicitly (as you can see in examples).
