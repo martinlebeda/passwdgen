@@ -1,10 +1,6 @@
-docs: README.md README.mds
+README.md: README.mds
 	mdpreproc < README.mds > README.md
 
-push: docs
-	git commit -a
-	git push
-
-deploy: docs push
+install: README.md
 	cp -f passwdgen ~/bin/passwdgen
 	chmod +x ~/bin/passwdgen
