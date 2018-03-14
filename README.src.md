@@ -6,18 +6,22 @@ lenght. Program generate proposals and user can choose (and modify) by own taste
 
 ## Overview
 ```
-#@ perl passwdgen -h
+#exec perl passwdgen -h
 ```
 
 Some examples:
 ```
-#@ perl passwdgen 
+$ perl passwdgen 
+#exec perl passwdgen 
 
-#@ perl passwdgen -c 3 -l 12 -u -n
+$ perl passwdgen -c 3 -l 12 -u -n
+#exec perl passwdgen -c 3 -l 12 -u -n
 
-#@ perl passwdgen -c 3 -l 50 -u -n -s
+$ perl passwdgen -c 3 -l 50 -u -n -s
+#exec perl passwdgen -c 3 -l 50 -u -n -s
 
-#@ perl passwdgen -c 3 -f were
+$ perl passwdgen -c 3 -f were
+#exec perl passwdgen -c 3 -f were
 ```
 
 ## Install

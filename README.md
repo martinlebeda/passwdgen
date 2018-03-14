@@ -1,12 +1,11 @@
 # passwdgen
-Human readable and pronounceable password generator writen in perl. Freely inspired by utility on old SCO OpenServer.
+Human readable and pronounceable password generator writen in perl. Freely inspired by utility on old SCO OpenServer. 
 
 But it can generate stronger password, with special characers and arbitrary
 lenght. Program generate proposals and user can choose (and modify) by own taste.
 
 ## Overview
 ```
-$ perl passwdgen -h
  -h ... help
  -u ... use upercase too
  -s ... use special characters too
@@ -18,42 +17,42 @@ $ perl passwdgen -h
 
 Some examples:
 ```
-$ perl passwdgen
-hlsilibi
-crpeklcu
-godlwijo
-rutlvity
-ryslzabe
-pyholaly
-zyvlmowi
-frprkiwy
-mrfebavu
-tepixevi
-dotrcyku
-xuflrigy
-rexemilu
-qonibizi
-pldrqrdo
-syjltavi
-tesumifr
-llpapafe
-burydanl
-kyxawavu
+$ perl passwdgen 
+bykehykr
+glhimoxo
+kedecrme
+xlbyslpu
+diblcrxi
+frflzrho
+hrvudrli
+prrlllhr
+jiwujrwy
+hugyhivi
+nyqidifo
+hlcisykr
+crnejobi
+nuprkide
+jrrinuna
+ponamrne
+pucodldo
+lrmafabo
+lymyhlfu
+xrbucoke
 
 $ perl passwdgen -c 3 -l 12 -u -n
-FRgatYvOSisY
-coqYmlLEHRWy
-taKYZRWUMuTU
+qeqy6a4I9YTy
+FYXaBIPOBYTe
+KU7yqatuCyzY
 
 $ perl passwdgen -c 3 -l 50 -u -n -s
-by1eC?p*c+d:9r4A6/re7UX=t^7YR[SafIM$X^f-SUP*4#v~tE
-firyR+Glrlw$5OV)tRt~WaB]q=x&9Rq-J^4^BLnUxlj*Cr8/c/
-dOD.9@L)4/7@P~1EW)vok^Hi9aX:7/xLm(xYD/sac:2=P)G)Z!
+5[G(Puh_h}t]7~N~p*luc(QyJ!b-MUH&z]T&r{d[T#Q(d:t^Re
+k!T@p#9!RUt*D,J=r:wy0=v#Z*v:MLW~3A9A0.W/V(9o7eP%V)
+fRxen!1!mRMUv{rik[w]K}q@N]nIK~5@d)v*cyKrJoLEX.KUN,
 
 $ perl passwdgen -c 3 -f were
-werexlgr
-rosiwere
-zicawere
+werelrnl
+bawerepl
+zeweregy
 ```
 
 ## Install
